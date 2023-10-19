@@ -18,6 +18,14 @@
                   </p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://10.0.30.227">
+                   <i class="material-icons">home</i>  {{_('MULTI-PBX') }}
+                   <p class="d-lg-none d-md-block">
+                     MULTI-PBX
+                   </p>
+                 </a>
+               </li>
               {% if not is_freeswitch() %}
               <li class="nav-item">
                <a class="nav-link" href="{{url_for('.all_queues')}}">
